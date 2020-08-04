@@ -1,0 +1,1013 @@
+/*
+****************************************************
+    common css part start
+****************************************************
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+
+
+
+
+/*************** section heading start ****************/
+.section-heading{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+/*************** section heading end ******************/
+
+/****************************************************
+    common css part end
+****************************************************/
+
+
+
+
+
+
+
+/*
+****************************************************
+    header part css start
+****************************************************
+*/
+#header-top{
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav{
+    background: rgba(13, 13, 13, .7);
+}
+
+#header-top .logo-shape{
+    position: relative;
+}
+
+#header-top .logo-shape .logo{
+    background: #323232;
+    padding: 10px 20px;
+    clip-path: polygon(13% 0, 100% 0, 88% 100%, 0% 100%);
+    position: absolute;
+    top: -37px;
+    left: 0;
+}
+
+#header-top ul li a{
+   color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: .4s;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+    margin-left: 20px;
+} 
+
+#header-top ul li a:hover{
+    color: #222222;
+    background: #fff;
+    border-bottom: 3px solid #e23e38;
+}
+
+/****************************************************
+    header part css end
+****************************************************/
+
+
+
+
+
+
+/****************************************************
+    banner part css start
+****************************************************/
+#banner-part .banner{
+    background: url(../images/banner-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    color: #fff;
+    padding-top: 255px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#banner-part .banner .overlay .tex-box{
+    width: 556px;
+    height: 223px;
+    border-left: 3px solid #e23e38;
+    border-right: 3px solid #e23e38;
+    margin-top: 25px;
+}
+
+#banner-part .banner .overlay h4::after{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 144px;
+    height: 3px;
+    background: #e23e38;
+    content: "";
+    border-bottom-right-radius: 3px;
+}
+
+#banner-part .banner .overlay h4:before{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 97px;
+    height: 3px;
+    background: #e23e38;
+    content: "";
+    border-bottom-left-radius: 3px;
+}
+
+#banner-part .banner .overlay h4{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: -20px;
+}
+
+#banner-part .banner .overlay h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #e23e38;
+}
+
+#banner-part .banner .overlay p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    margin: 30px auto;
+    position: relative;
+}
+
+#banner-part .banner .overlay p::after{
+    position: absolute;
+    top: 83px;
+    left: -28px;
+    width: 62px;
+    height: 3px;
+    background: #e23e38;
+    content: "";
+}
+
+#banner-part .banner .overlay p::before{
+    position: absolute;
+    top: 83px;
+    right: -28px;
+    width: 37px;
+    height: 3px;
+    background: #e23e38;
+    content: "";
+}
+
+#banner-part .banner .overlay a{
+    background: #e23e38;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 30px;
+    transform: .4s;
+}
+
+#banner-part .banner .overlay a:hover{
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+#banner-part ul{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner-part ul li{
+    display: inline-block;
+}
+
+#banner-part ul li button{
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: 0;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+}
+
+#banner-part ul .slick-active button{
+    background: #e23e38;
+    border: 1px solid #e23e38;
+}
+/****************************************************
+    banner part css end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+/****************************************************
+    about part css start
+****************************************************/
+#about-part{
+    padding: 80px 0;
+}
+
+#about-part .about-video{
+    width: 100%;
+    position: relative;
+}
+
+#about-part .about-video img{
+    width: 100%;
+    height: 100%;
+}
+
+#about-part .about-video .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-part .about-video .overlay i{
+    color: #fff;
+    font-size: 56px;
+    color: #e23e38;
+}
+
+#about-part .about-text{
+    text-align: center;
+}
+
+#about-part .about-text p{
+    font-size: 14px;
+    color: #444444;
+    margin-top: 15px;
+}
+
+/****************************************************
+    about part css end
+****************************************************/
+
+
+
+
+
+
+
+/****************************************************
+    gallery part css start
+****************************************************/
+#gallery-part .gallery-bg{
+    width: 100%;
+    background: url(../images/gallery-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallery-part .gallery-bg .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+    padding: 30px 0;
+}
+
+#gallery-part .gallery-bg .overlay .gallery .img-1{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    opacity: 
+    
+}
+
+#gallery-part .gallery-bg .overlay .gallery .img-2{
+    margin-bottom: 0;
+}
+
+#gallery-part .gallery-bg .overlay .gallery .img-1:hover .overlay{
+    transform: scale(1);
+}
+
+#gallery-part .gallery-bg .overlay .gallery .overlay {
+    width: 96%;
+    height: 96%;
+    background: rgba(226, 62, 56, .5);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    border: 5px solid #bcb9ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    transform: scale(0);
+}
+
+
+#gallery-part .gallery-bg .overlay .gallery .img-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#gallery-part .gallery-bg .overlay .gallery .img-1 i{
+    font-size: 30px;
+    color: #fff;
+}
+/****************************************************
+    gallery part css end
+****************************************************/
+
+
+
+
+
+
+
+
+/****************************************************
+    team part css star
+****************************************************/
+#team-part{
+    padding: 80px 0;
+}
+
+#team-part .team{
+    width: 100%;
+    margin-top: 50px;
+    transition: 4s;
+}
+
+#team-part .team:hover{
+    margin-top: 0;
+}
+
+#team-part .team .img{
+    width: 100%;
+    position: relative;
+}
+
+#team-part .team .img img{
+    width: 100%;
+    height: 100%; 
+}
+
+#team-part .team .img .overlay{
+    width: 94%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background: rgb(226, 62, 56, .5);
+    border: 5px solid #fff;
+    transition: .4s;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 13px;
+}
+
+#team-part .team:hover .img .overlay{
+    opacity: 1;
+}
+
+#team-part .team .img .overlay ul li a i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    transition: .4s;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+#team-part .team .img .overlay ul li a i:hover{
+    background: #fff;
+    color: #1da0f2;
+}
+
+#team-part .team .text{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    height: 0;
+    
+}
+
+#team-part .team:hover .text{
+    border: 1px solid #dddddd;
+    border-top: 0;
+    height: 155px; 
+}
+
+#team-part .team .text h4{
+    padding-bottom: 10px;
+}
+
+#team-part .team .text h5{
+    color: #444444;
+    margin-top: 10px;
+}
+
+#team-part .team .text p{
+    color: #444444;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+#team-part .team:hover .text p{
+    opacity: 1;
+}
+
+/****************************************************
+    team part css end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+/****************************************************
+    testimonial part css start
+****************************************************/
+.testimonial-bg{
+    width: 100%;
+    background: url(../images/testimonial-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.testimonial-bg .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+    padding-top: 30px;
+    padding-bottom: 85px;
+}
+
+
+.testimonial-bg .overlay .testimonial{
+    width: 100%;
+    margin: 0 20px;
+}
+
+.testimonial-bg .overlay .testimonial .img{
+    width: 16%;
+    float: left;
+}
+
+.testimonial-bg .overlay .testimonial .text{
+    width: 84%;
+    float: left;
+    padding-left: 13px;
+}
+
+.testimonial-bg .overlay .testimonial .text h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.testimonial-bg .overlay .testimonial .text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+.testimonial-bg .overlay .testimonial .text i{
+    color: #e23e38;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.testimonial-bg .overlay .testimonial p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#testimonial-part ul{
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#testimonial-part ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#testimonial-part ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    outline: 0;
+    position: relative;
+}
+
+#testimonial-part ul .slick-active button{
+    background: #e23e38;
+    border: 0;
+}
+/****************************************************
+    testimonial part css end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************
+    membership part css start
+****************************************************/
+#membership-part{
+    padding: 80px 0;
+}
+
+#membership-part .membership{
+    width: 100%;
+    text-align: center;
+    background: #f1f1f1;
+    margin-top: 30px;
+}
+
+#membership-part .membership h5{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #dddddd;
+    padding: 15px 0;
+    color: #222222;
+    transition: .4s;
+}
+
+#membership-part .membership:hover h5{
+    color: #fff;
+    background: #e23e38;
+}
+
+#membership-part .membership .img{
+    width: 100%;
+    position: relative;
+}
+
+#membership-part .membership .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#membership-part .membership .img .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#membership-part .membership .img .overlay p{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+#membership-part .membership .img .overlay p .month{
+    font-size: 14px;
+}
+
+#membership-part .membership .text{
+    padding: 40px;
+}
+
+#membership-part .membership .text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 0;
+}
+
+#membership-part .membership h4{
+    background: #dddddd;
+    padding: 13px 0;
+    transition: .4s;
+}
+
+#membership-part .membership:hover h4{
+    background: #e23e38;
+}
+
+#membership-part .membership h4 a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#membership-part .membership:hover h4 a{
+    color: #fff;
+}
+
+/****************************************************
+    membership part css end
+****************************************************/
+
+
+
+
+
+
+
+
+
+/****************************************************
+    goodwill part css start
+****************************************************/
+#goodwill-part{
+    width: 100%;
+    background: url(../images/goodwill-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#goodwill-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    padding: 45px 0;
+}
+
+#goodwill-part .overlay .item{
+    text-align: center;
+}
+
+#goodwill-part .overlay .item h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+#goodwill-part .overlay .item p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+/****************************************************
+    goodwill part css end
+****************************************************/
+
+
+
+
+
+
+
+
+/****************************************************
+    class part css end
+****************************************************/
+#class-part{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#class-part .at-accordion-or-tabs>li>a{
+    background: #f1f1f1;
+    border: 0;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 500;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 60px;
+    margin-left: -5px;
+}
+
+#class-part .at-accordion-or-tabs.at-tabs>li>a.active{
+    background: #e23e38;
+    color: #fff;
+}
+
+#class-part .at-accordion-or-tabs.at-tabs>li>section{
+    margin-top: 30px;
+    border: 0;
+    margin-left: -18px;
+}
+
+#class-part .at-accordion-or-tabs.at-tabs>li>section .tab-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#class-part .at-accordion-or-tabs.at-tabs>li>section .tab-2{
+    margin-top: 5px;
+}
+.at-accordion-or-tabs.at-tabs>li>section .box{
+    width: 20%;
+    background: #f1f1f1;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    padding: 50px 0;
+    transition: .4s;
+}
+
+.at-accordion-or-tabs.at-tabs>li>section .box:hover{
+    background: #e23e38;
+    color: #fff;
+}
+
+.at-accordion-or-tabs.at-tabs>li>section .box img{
+    padding: 10px 0;
+    color: red;
+}
+/****************************************************
+    class part css end
+****************************************************/
+
+
+
+
+
+
+
+/****************************************************
+    partnar part css start
+****************************************************/
+#partner-part{
+    padding-bottom: 80px;
+    position: relative;
+}
+
+#partner-part .prev{
+    font-size: 30px;
+    color: #444444;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+
+#partner-part .next{
+    font-size: 30px;
+    color: #444444;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/****************************************************
+    partnar part css end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+/****************************************************
+    footer part css start
+****************************************************/
+#footer-part{
+    background: url(../images/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#footer-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+
+#footer-part .overlay .logo{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+}
+
+#footer-part .overlay .items{
+    padding: 30px 0;
+    border-bottom: 1px solid #fff;
+}
+
+#footer-part .overlay .items .item{
+    width: 100%;
+    color: #fff;
+}
+
+#footer-part .overlay .items .item h4{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#footer-part .overlay .items .item p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-part .overlay .items .item p span{
+    padding-right: 45px;
+}
+
+#footer-part .overlay .items .item p .wed{
+    padding-right: 27px;
+}
+
+#footer-part .overlay .items .item p .fri{
+    padding-right: 59px;
+}
+
+#footer-part .overlay .items .item p .sun{
+    padding-right: 54px;
+}
+
+#footer-part .overlay .items .item p .holly{
+    padding-right: 47px;
+}
+
+#footer-part .overlay .items .item ul li i{
+    color: #1da1f2;
+    font-size: 20px;
+}
+
+#footer-part .overlay .items .item ul li{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#footer-part .overlay .items .item ul{
+    position: relative;
+}
+
+#footer-part .overlay .items .item .gap{
+    margin-top: 85px;
+    padding-bottom: 50px;
+}
+
+#footer-part .overlay .items .item ul .text{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+#footer-part .overlay .items .item  a .line-2{
+    margin-top: 10px;
+}
+
+#footer-part .overlay .items .item ul .icon i{
+    color: #e23e38;
+}
+
+#footer-part .overlay .items .item a i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    transition: .4s;
+    color: #fff;
+}
+
+#footer-part .overlay .items .item a i:hover{
+    background: #e23e38;
+    border: 1px solid #e23e38;
+}
+
+#footer-part .overlay .footer-bottom{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer-part .overlay .footer-bottom p{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-part .overlay .footer-bottom p a{
+    color: #bc322d;
+}
+/****************************************************
+    footer part css end
+****************************************************/
