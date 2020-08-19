@@ -1,0 +1,582 @@
+/*************************************************************
+    extra small device responsive start (320px-575px)
+*************************************************************/
+@media (min-width: 320px) and (max-width: 575px) {
+/*    ********* header top part start **********/
+   #header-top .fa{
+        color: #fff;
+    }
+    
+    #header-top ul{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #header-top ul li a{
+        margin-bottom: 5px;
+    }
+/*    ********* header top part end ************/
+    
+    
+/*    ********* banner part start **************/
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    #banner-part .banner .overlay .tex-box{
+        border: 0;
+    }
+    
+    #banner-part .banner .overlay h4::after{
+        height: 0;
+    }
+    
+    #banner-part .banner .overlay h4::before{
+        height: 0;
+    }
+    
+    #banner-part .banner .overlay p::after{
+        height: 0;
+    }
+    
+    #banner-part .banner .overlay p::before{
+        height: 0;
+    }
+/*    ********* banner part end ****************/
+    
+    
+    
+/*    ********* testimonial part start **************/
+    .testimonial-bg .overlay .testimonial .text h4{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text h5{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text .left{
+        margin-left: 35px;
+    }
+/*    ********* testimonial part end ****************/
+    
+    
+    
+/*    ********* goodwill part start *****************/
+    #goodwill-part .overlay .extra-small{
+        flex-direction: column;
+    }
+    
+    #goodwill-part .overlay .item{
+        border: 1px solid #fff;
+        margin-bottom: 15px;
+        padding: 15px 0;
+    }
+/*    ********* goodwill part end *******************/
+    
+    
+    
+    
+/*    ********* class part start *******************/
+    #class-part .tab-menu ul li{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #class-part .items{
+        flex-direction: column;
+    }
+    
+    #class-part .items .item{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+/*    ********* class part end *********************/
+    
+    
+    
+/*    ********* partner part start *******************/
+    #partner-part ul{
+        position: absolute;
+        border-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #partner-part ul li{
+        display: inline-block;
+    }
+    
+    #partner-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        outline: 0;
+        border-radius: 50%;
+        position: relative;
+        border: 1px solid #E23E38;
+        margin-left: 5px;  
+    }
+    
+    #partner-part ul .slick-active button{
+        background: #E23E38;
+    }
+/*    ********* partner part end *********************/
+    
+    
+    
+/*    ********* footer part start ********************/
+    #footer-part .overlay .items .item{
+        padding-bottom: 30px;
+    }
+    
+    #footer-part .overlay .footer-bottom p{
+        font-size: 12px;
+    }
+    
+    #footer-part .overlay .footer-bottom p a{
+        font-size: 14px;
+    }
+    
+    .btop{
+        display: none;
+    }
+/*    ********* footer part end **********************/
+}
+/*************************************************************
+    extra small device responsive start (320px-575px)
+*************************************************************/
+
+
+
+
+
+
+
+
+/*************************************************************
+    small device responsive start (576x-767px)
+*************************************************************/
+@media (min-width: 576px) and (max-width: 767px) {
+/*    ********* header top part start **********/
+   #header-top .fa{
+        color: #fff;
+    }
+    
+    #header-top ul{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #header-top ul li a{
+        margin-bottom: 5px;
+    }
+/*    ********* header top part end ************/
+    
+    
+/*    ********* banner part start **************/
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    
+    #banner-part .banner .overlay p::before{
+        right: -3px;
+    }
+    
+    #banner-part .banner .overlay p::after{
+        left: -3px;
+    }
+/*    ********* banner part end ****************/
+    
+    
+    
+    
+/*    ********* testimonial part start **************/
+    .testimonial-bg .overlay .testimonial .text h4{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text h5{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text .left{
+        margin-left: 35px;
+    }
+/*    ********* testimonial part end ****************/
+    
+    
+    
+/*    ********* goodwill part start *****************/
+    #goodwill-part .overlay .extra-small{
+        flex-direction: column;
+    }
+    
+    #goodwill-part .overlay .item{
+        border: 1px solid #fff;
+        margin-bottom: 15px;
+        padding: 15px 0;
+    }
+/*    ********* goodwill part end *******************/
+    
+    
+    
+    
+/*    ********* class part start *******************/
+    #class-part .tab-menu ul li{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #class-part .items{
+        flex-direction: column;
+    }
+    
+    #class-part .items .item{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+/*    ********* class part end *********************/
+    
+    
+    
+/*    ********* partner part start *******************/
+    #partner-part ul{
+        position: absolute;
+        border-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #partner-part ul li{
+        display: inline-block;
+    }
+    
+    #partner-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        outline: 0;
+        border-radius: 50%;
+        position: relative;
+        border: 1px solid #E23E38;
+        margin-left: 5px;  
+    }
+    
+    #partner-part ul .slick-active button{
+        background: #E23E38;
+    }
+    
+    #partner-part .partner img{
+        width: 90%;
+    } 
+/*    ********* partner part end *********************/
+    
+    
+    
+/*    ********* footer part start ********************/
+    #footer-part .overlay .items .item{
+        padding-bottom: 30px;
+    }
+    
+    #footer-part .overlay .footer-bottom p{
+        font-size: 12px;
+    }
+    
+    #footer-part .overlay .footer-bottom p a{
+        font-size: 14px;
+    }
+    
+    .btop{
+        display: none;
+    }
+/*    ********* footer part end **********************/
+}
+/*************************************************************
+    small device responsive start (576px-767px)
+*************************************************************/
+
+
+
+
+
+
+
+
+
+
+/*************************************************************
+    medium device responsive start (768x-991px)
+*************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+/*    ********* header top part start **********/
+   #header-top .fa{
+        color: #fff;
+    }
+    
+    #header-top ul{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #header-top ul li a{
+        margin-bottom: 5px;
+    }
+/*    ********* header top part end ************/
+    
+    
+/*    ********* banner part start **************/
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    
+    #banner-part .banner .overlay p::before{
+        right: -3px;
+    }
+    
+    #banner-part .banner .overlay p::after{
+        left: -3px;
+    }
+/*    ********* banner part end ****************/
+    
+    
+    
+    
+/*    ********* testimonial part start **************/
+    .testimonial-bg .overlay .testimonial .text h4{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text h5{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text .left{
+        margin-left: 35px;
+    }
+/*    ********* testimonial part end ****************/
+    
+    
+    
+/*    ********* goodwill part start *****************/
+    
+    #goodwill-part .overlay .item{
+        border: 1px solid #fff;
+        margin-bottom: 15px;
+        padding: 15px 0;
+    }
+/*    ********* goodwill part end *******************/
+    
+    
+    
+      
+     
+    
+/*    ********* class part start *******************/
+    
+   #class-part .tab-menu ul li{
+        width: 33%;
+        text-align: center;
+    }
+    
+    
+    #class-part .items .item{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+/*    ********* class part end *********************/
+    
+    
+    
+/*    ********* partner part start *******************/
+    #partner-part ul{
+        position: absolute;
+        border-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #partner-part ul li{
+        display: inline-block;
+    }
+    
+    #partner-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        outline: 0;
+        border-radius: 50%;
+        position: relative;
+        border: 1px solid #E23E38;
+        margin-left: 5px;  
+    }
+    
+    #partner-part ul .slick-active button{
+        background: #E23E38;
+    }
+    
+    #partner-part .partner img{
+        width: 90%;
+    } 
+/*    ********* partner part end *********************/
+    
+    
+    
+/*    ********* footer part start ********************/
+    #footer-part .overlay .items .item{
+        padding-bottom: 30px;
+    }
+    
+    
+/*    ********* footer part end **********************/
+}
+/*************************************************************
+    medium device responsive start (768px-991px)
+*************************************************************/
+
+
+
+
+
+
+
+
+/*************************************************************
+    large device responsive start (992x-1199px)
+*************************************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+/*    ********* header top part start **********/
+   #header-top .fa{
+        color: #fff;
+    }
+    
+    #header-top ul{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #header-top ul li a{
+        margin-bottom: 5px;
+    }
+/*    ********* header top part end ************/
+    
+    
+/*    ********* banner part start **************/
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    
+    #banner-part .banner .overlay p::before{
+        right: -3px;
+    }
+    
+    #banner-part .banner .overlay p::after{
+        left: -3px;
+    }
+/*    ********* banner part end ****************/
+    
+    
+    
+    
+/*    ********* testimonial part start **************/
+    .testimonial-bg .overlay .testimonial .text h4{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text h5{
+        margin-left: 35px;
+    }
+    
+    .testimonial-bg .overlay .testimonial .text .left{
+        margin-left: 35px;
+    }
+/*    ********* testimonial part end ****************/
+    
+    
+    
+/*    ********* goodwill part start *****************/
+    
+    #goodwill-part .overlay .item{
+        border: 1px solid #fff;
+        margin-bottom: 15px;
+        padding: 15px 0;
+    }
+/*    ********* goodwill part end *******************/
+    
+    
+     
+    
+/*    ********* class part start *******************/
+    
+   #class-part .tab-menu ul li{
+        width: 33%;
+        text-align: center;
+    }
+    
+    
+    #class-part .items .item{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+/*    ********* class part end *********************/
+    
+    
+    
+/*    ********* partner part start *******************/
+    #partner-part ul{
+        position: absolute;
+        border-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #partner-part ul li{
+        display: inline-block;
+    }
+    
+    #partner-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        outline: 0;
+        border-radius: 50%;
+        position: relative;
+        border: 1px solid #E23E38;
+        margin-left: 5px;  
+    }
+    
+    #partner-part ul .slick-active button{
+        background: #E23E38;
+    }
+    
+    #partner-part .partner img{
+        width: 90%;
+    } 
+/*    ********* partner part end *********************/
+    
+    
+    
+/*    ********* footer part start ********************/
+    #footer-part .overlay .items .item{
+        padding-bottom: 30px;
+    }
+    
+    .fixed{
+        top: 0;
+        position: fixed;
+        left: 0;
+        width: 100%;
+    }
+/*    ********* footer part end **********************/
+}
+/*************************************************************
+    large device responsive start (992px-1199px)
+*************************************************************/
+

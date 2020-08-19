@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gymnasium</title>
+    <link rel="icon" href="images/fav-icon-01.png" sizes="16x16">
     <!--    ************ google font link connect start **************-->
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -17,23 +18,23 @@
 
 
     <!--    **************** css link connect start **************-->
-    <link rel="stylesheet" href="css/jquery.atAccordionOrTabs.min.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!--    **************** css link connect end **************-->
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
     <!--**************************************************************
    header top part start
 *****************************************************************-->
 
     <section id="header-top">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg menu fixed">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <div class="logo-shape">
@@ -42,7 +43,7 @@
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,22 +52,25 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link active" href="#about-part">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Plans</a>
+                            <a class="nav-link" href="#gallery-part">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                            <a class="nav-link" href="#team-part">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#testimonial-part">Testimonial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonial</a>
+                            <a class="nav-link" href="#membership-part">Membership</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#class-part">Class</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer-part">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -189,7 +193,7 @@
             <div class="overlay">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
                             <div class="gallery">
                                 <div class="img-1">
                                     <img src="images/galler-1.png" alt="">
@@ -206,7 +210,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
                             <div class="gallery">
                                 <div class="img-1">
                                     <img src="images/gallery-3.png" alt="">
@@ -223,7 +227,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
                             <div class="gallery">
                                 <div class="img-1">
                                     <img src="images/gallery-5.png" alt="">
@@ -270,7 +274,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-1.png" alt="">
@@ -296,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-2.png" alt="">
@@ -322,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-3.png" alt="">
@@ -348,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-4.png" alt="">
@@ -412,55 +416,7 @@
                             <div class="text">
                                 <h4>Nusrat Jahan</h4>
                                 <h5>Gymanist</h5>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="img">
-                                <img src="images/testi-2.png" alt="">
-                            </div>
-                            <div class="text">
-                                <h4>Nusrat Jahan</h4>
-                                <h5>Gymanist</h5>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="img">
-                                <img src="images/testi-1.png" alt="">
-                            </div>
-                            <div class="text">
-                                <h4>Nusrat Jahan</h4>
-                                <h5>Gymanist</h5>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="img">
-                                <img src="images/testi-1.png" alt="">
-                            </div>
-                            <div class="text">
-                                <h4>Nusrat Jahan</h4>
-                                <h5>Gymanist</h5>
-                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star left" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -476,7 +432,55 @@
                             <div class="text">
                                 <h4>Nusrat Jahan</h4>
                                 <h5>Gymanist</h5>
+                                <i class="fa fa-star left" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="img">
+                                <img src="images/testi-1.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>Nusrat Jahan</h4>
+                                <h5>Gymanist</h5>
+                                <i class="fa fa-star left" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="img">
+                                <img src="images/testi-1.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>Nusrat Jahan</h4>
+                                <h5>Gymanist</h5>
+                                <i class="fa fa-star left" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries are not possible.</p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="img">
+                                <img src="images/testi-2.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>Nusrat Jahan</h4>
+                                <h5>Gymanist</h5>
+                                <i class="fa fa-star left" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -534,7 +538,7 @@
                             <h4><a href="#">Join Now</a></h4>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4">
                         <div class="membership">
                             <h5>Professional Membership</h5>
@@ -554,7 +558,7 @@
                             <h4><a href="#">Join Now</a></h4>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4">
                         <div class="membership">
                             <h5>Regular membership</h5>
@@ -593,49 +597,47 @@
 
 
 
-
-
     <!--**************************************************************
    goodwill  part end
 *****************************************************************-->
-<section id="goodwill-part">
-    <div class="overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="item">
-                        <h2 class="tea">261</h2>
-                        <p>Cup Of Tea</p>
+    <section id="goodwill-part">
+        <div class="overlay">
+            <div class="container">
+                <div class="row extra-small">
+                    <div class="col">
+                        <div class="item">
+                            <h2 class="tea">261</h2>
+                            <p>Cup Of Tea</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="item">
-                        <h2 class="award">518</h2>
-                        <p>Award Win</p>
+                    <div class="col">
+                        <div class="item">
+                            <h2 class="award">518</h2>
+                            <p>Award Win</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="item">
-                        <h2 class="client">999</h2>
-                        <p>Happy Clients</p>
+                    <div class="col">
+                        <div class="item">
+                            <h2 class="client">999</h2>
+                            <p>Happy Clients</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="item">
-                        <h2 class="couse">369</h2>
-                        <p>Couse Complete</p>
+                    <div class="col">
+                        <div class="item">
+                            <h2 class="couse">369</h2>
+                            <p>Couse Complete</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="item">
-                        <h2 class="gym">209</h2>
-                        <p>Partner Gym</p>
+                    <div class="col">
+                        <div class="item">
+                            <h2 class="gym">209</h2>
+                            <p>Partner Gym</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>    
+    </section>
 
     <!--**************************************************************
    goodwill  part end
@@ -657,428 +659,251 @@
                 <h4>Our classes</h4>
                 <img src="images/classes-title-icon.png" alt="">
             </div>
-            
-            <div class="container">
-                <ul class="demo">
-        <li><a>Monday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga1</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+        </div>
+
+
+        <div class="container">
+            <div class="tab-menu">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Monday</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Tuesday</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">wednesday</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact-1" role="tab" aria-controls="pills-contact" aria-selected="false">thursday</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact-2" role="tab" aria-controls="pills-contact" aria-selected="false">Friday</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact-3" role="tab" aria-controls="pills-contact" aria-selected="false">satuarday</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
-                    <div class="box">
-                        <p>Skipping</p>
-                        <img src="images/class-1.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                    <div class="items items-2">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-6.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-7.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-8.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-9.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
-                    <div class="box">
-                        <p>Cycling</p>
-                        <img src="images/class-2.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Boxing</p>
-                        <img src="images/class-3.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Back Rellf</p>
-                        <img src="images/class-4.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Chain Up</p>
-                        <img src="images/class-5.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Weight Lifting</p>
-                        <img src="images/class-6.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Weight Losing</p>
-                        <img src="images/class-7.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Free Hand</p>
-                        <img src="images/class-8.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Dumbel</p>
-                        <img src="images/class-9.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </li>
-        
-        
-        <li><a>Tuesday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga2</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                <div class="tab-pane fade" id="pills-contact-1" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                <div class="tab-pane fade" id="pills-contact-2" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </li>
-        
-        
-        <li><a>Wednesday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga3</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
+
+                <div class="tab-pane fade" id="pills-contact-3" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="items">
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-1.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-2.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-3.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-4.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
+                        <div class="item">
+                            <h4>Yoga</h4>
+                            <img src="images/class-5.png" alt="">
+                            <p>09.00am-11.00am</p>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-            </section>
-        </li>
-        
-        
-        <li><a>Thursday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga4</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-            </section>
-        </li>
-        
-        <li><a>friday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga5</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-            </section>
-        </li>
-         
-         <li><a>Satarday</a>
-            <section>
-                <div class="tab-box">
-                    <div class="box">
-                        <p>Yoga6</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-                <div class="tab-box tab-2">
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                    <div class="box">
-                        <p>Yoga</p>
-                        <img src="images/yoga.png" alt="">
-                        <i class="fa-yoga" aria-hidden="true"></i>
-                        <p>09:00 a.m - 11:00 a.m.</p>
-                    </div>
-                </div>
-            </section>
-        </li>
-         
-        
-    </ul>
             </div>
         </div>
     </section>
@@ -1097,45 +922,45 @@
     <!--**************************************************************
    partnar  part start
 *****************************************************************-->
-  <section id="partner-part">
-      <div class="container">
-          <div class="partner-slider">
-              <div class="partner">
-                  <img src="images/sp-1.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-2.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-3.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-4.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-5.png" alt="">
-              </div>
-              
-              <div class="partner">
-                  <img src="images/sp-1.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-2.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-3.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-4.png" alt="">
-              </div>
-              <div class="partner">
-                  <img src="images/sp-5.png" alt="">
-              </div>
-              
-          </div>
-      </div>
-  </section>
-   
+    <section id="partner-part">
+        <div class="container">
+            <div class="partner-slider">
+                <div class="partner">
+                    <img src="images/sp-1.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-2.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-3.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-4.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-5.png" alt="">
+                </div>
+
+                <div class="partner">
+                    <img src="images/sp-1.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-2.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-3.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-4.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="images/sp-5.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!--**************************************************************
    partnar  part end
 *****************************************************************-->
@@ -1145,103 +970,107 @@
 
 
 
-
+    <a class="btop" href="#">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
 
 
 
     <!--**************************************************************
    footer  part start
 *****************************************************************-->
-   <section id="footer-part">
-       <div class="overlay">
-           <div class="logo">
-               <div class="container">
-                   <img src="images/logo.png" alt="">
-               </div>
-           </div>
-           
-           <div class="items">
-               <div class="container">
-                   <div class="row">
-                       <div class="col-lg-3">
-                           <div class="item">
-                               <h4>Opening Hours</h4>
-                               <p><span>Monday</span>05:00 A.M. - 11:00 P.M.</p>
-                               <p><span>Tuesday</span>05:00 A.M. - 11:00 P.M.</p>
-                               <p><span class="wed">wednesday</span>05:00 A.M. - 11:00 P.M.</p>
-                               <p><span class="fri">Friday</span>05:00 A.M. - 11:00 P.M.</p>
-                               <p><span>Saturday</span>05:00 A.M. - 11:00 P.M.</p>
-                               <p><span>Saturday</span>07:00 A.M. - 9:00 P.M.</p>
-                               <p><span class="sun">Sunday</span>Close</p>
-                               <p><span class="holly">Hollyday</span>Close</p>
-                           </div>
-                       </div>
-                       <div class="col-lg-3">
-                           <div class="item">
-                               <h4>Twitter Feed</h4>
-                               <ul>
-                                   <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                                   <li class="text">We want to introduce you to a new ess theme GYMNASIUM persue new press theme. This the new idea for theme, hope you will like.24 July 2017 </li>
-                               </ul>
-                               
-                               <ul class="gap">
-                                   <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                                   <li class="text">We want to introduce you to a new ess theme GYMNASIUM persue new press theme. This the new idea for theme, hope you will like.24 July 2017 </li>
-                               </ul>
-                           </div>
-                       </div>
-                       <div class="col-lg-3">
-                           <div class="item">
-                               <h4>Flickr Feed</h4>
-                               <a href="#"><img src="images/fl-1.png" alt=""></a>
-                               <a href="#"><img src="images/fl-2.png" alt=""></a>
-                               <a href="#"><img src="images/fl-3.png" alt=""></a>
-                               <a href="#"><img src="images/fl-4.png" alt=""></a>
-                               
-                               <a href="#"><img class="line-2" src="images/fl-5.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-6.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-7.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-8.png" alt=""></a>
-                               
-                               <a href="#"><img class="line-2" src="images/fl-9.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-10.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-11.png" alt=""></a>
-                               <a href="#"><img class="line-2" src="images/fl-12.png" alt=""></a>
-                               
-                           </div>
-                       </div>
-                       <div class="col-lg-3">
-                           <div class="item">
-                               <h4>Contact</h4>
-                               <ul>
-                                   <li class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></li>
-                                   <li class="text">1234 Park Street Avenue, NY City America.</li>
-                               </ul>
-                               <ul>
-                                   <li class="icon"><i class="fa fa-phone" aria-hidden="true"></i></li>
-                                   <li class="text">+8801738696914, +88 01741969683</li>
-                               </ul>
-                               <ul>
-                                   <li class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></li>
-                                   <li class="text">info@admin.com, admin@info.com</li>
-                               </ul>
-                               
-                               <h4>Get Social</h4>
-                               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                               <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                               <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                               <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                               <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="container">
-               <div class="footer-bottom"><p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> All rights reserved by <a href="#">GYMNASIUM</a>.| Design by <a href="http://nurislam.xyz/">Nur Islam</a> </p></div>
-           </div>
-       </div>
-   </section>
+    <section id="footer-part">
+        <div class="overlay">
+            <div class="logo">
+                <div class="container">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item">
+                                <h4>Opening Hours</h4>
+                                <p><span>Monday</span>05:00 A.M. - 11:00 P.M.</p>
+                                <p><span>Tuesday</span>05:00 A.M. - 11:00 P.M.</p>
+                                <p><span class="wed">wednesday</span>05:00 A.M. - 11:00 P.M.</p>
+                                <p><span class="fri">Friday</span>05:00 A.M. - 11:00 P.M.</p>
+                                <p><span>Saturday</span>05:00 A.M. - 11:00 P.M.</p>
+                                <p><span>Saturday</span>07:00 A.M. - 9:00 P.M.</p>
+                                <p><span class="sun">Sunday</span>Close</p>
+                                <p><span class="holly">Hollyday</span>Close</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item">
+                                <h4>Twitter Feed</h4>
+                                <ul>
+                                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                                    <li class="text">We want to introduce you to a new ess theme GYMNASIUM persue new press theme. This the new idea for theme, hope you will like.24 July 2017 </li>
+                                </ul>
+
+                                <ul class="gap">
+                                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                                    <li class="text">We want to introduce you to a new ess theme GYMNASIUM persue new press theme. This the new idea for theme, hope you will like.24 July 2017 </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item">
+                                <h4>Flickr Feed</h4>
+                                <a href="#"><img src="images/fl-1.png" alt=""></a>
+                                <a href="#"><img src="images/fl-2.png" alt=""></a>
+                                <a href="#"><img src="images/fl-3.png" alt=""></a>
+                                <a href="#"><img src="images/fl-4.png" alt=""></a>
+
+                                <a href="#"><img class="line-2" src="images/fl-5.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-6.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-7.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-8.png" alt=""></a>
+
+                                <a href="#"><img class="line-2" src="images/fl-9.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-10.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-11.png" alt=""></a>
+                                <a href="#"><img class="line-2" src="images/fl-12.png" alt=""></a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item">
+                                <h4>Contact</h4>
+                                <ul>
+                                    <li class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                                    <li class="text">1234 Park Street Avenue, NY City America.</li>
+                                </ul>
+                                <ul>
+                                    <li class="icon"><i class="fa fa-phone" aria-hidden="true"></i></li>
+                                    <li class="text">+8801738696914, +88 01741969683</li>
+                                </ul>
+                                <ul>
+                                    <li class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                                    <li class="text">info@admin.com, admin@info.com</li>
+                                </ul>
+
+                                <h4>Get Social</h4>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-bottom">
+                    <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> All rights reserved by <a href="#">GYMNASIUM</a>.| Design by <a href="http://nurislam.xyz/">Nur Islam</a> </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--**************************************************************
    footer  part end
 *****************************************************************-->
@@ -1252,8 +1081,6 @@
 
 
     <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.atAccordionOrTabs.min.js"></script>
-    <script src="js/jquery.bbq.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/venobox.min.js"></script>

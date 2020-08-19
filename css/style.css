@@ -36,6 +36,16 @@ h1,h2,h3,h4,h5,h6,p{
 
 /*************** section heading end ******************/
 
+
+/*************** fixed menu css start ******************/
+.fixed{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    background: #222;
+}
+/*************** fixed menu css end ********************/
+
 /****************************************************
     common css part end
 ****************************************************/
@@ -88,6 +98,12 @@ nav{
 } 
 
 #header-top ul li a:hover{
+    color: #222222;
+    background: #fff;
+    border-bottom: 3px solid #e23e38;
+}
+
+#header-top ul li .active{
     color: #222222;
     background: #fff;
     border-bottom: 3px solid #e23e38;
@@ -772,59 +788,74 @@ nav{
     padding-bottom: 40px;
 }
 
-#class-part .at-accordion-or-tabs>li>a{
-    background: #f1f1f1;
-    border: 0;
-    color: #222222;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: 500;
-    font-family: 'Oswald', sans-serif;
-    padding: 20px 60px;
-    margin-left: -5px;
-}
-
-#class-part .at-accordion-or-tabs.at-tabs>li>a.active{
+#class-part .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background: #e23e38;
+    border-radius: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     color: #fff;
 }
 
-#class-part .at-accordion-or-tabs.at-tabs>li>section{
-    margin-top: 30px;
-    border: 0;
-    margin-left: -18px;
-}
-
-#class-part .at-accordion-or-tabs.at-tabs>li>section .tab-box{
-    display: flex;
-    justify-content: space-between;
-}
-
-#class-part .at-accordion-or-tabs.at-tabs>li>section .tab-2{
-    margin-top: 5px;
-}
-.at-accordion-or-tabs.at-tabs>li>section .box{
-    width: 20%;
+#class-part .nav-pills .nav-link{
     background: #f1f1f1;
-    margin-left: 5px;
-    text-align: center;
+    border-radius: 0;
+    font-family: 'Oswald', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    color: #444444;
+    border-radius: 0;
+    color: #222;
+    padding: 20px 66px;
+    text-transform: uppercase;
+}
+
+#class-part .items{
+    display: flex;
+}
+
+#class-part .items-2{
+    margin-top: 5px;
+}
+
+#class-part .items .item{
     padding: 50px 0;
+    width: 216px;
+    background: #f1f1f1;
+    text-align: center;
+    margin-right: 5px;
     transition: .4s;
 }
 
-.at-accordion-or-tabs.at-tabs>li>section .box:hover{
+#class-part .items .item:hover{
     background: #e23e38;
+}
+
+#class-part .items .item h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    transition: .4s;
+}
+
+#class-part .items .item:hover h4{
     color: #fff;
 }
 
-.at-accordion-or-tabs.at-tabs>li>section .box img{
-    padding: 10px 0;
-    color: red;
+#class-part .items .item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    transition: .4s;
 }
+
+#class-part .items .item:hover p{
+    color: #fff;
+}
+
 /****************************************************
     class part css end
 ****************************************************/
@@ -862,6 +893,11 @@ nav{
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+}
+
+#partner-part .partner{
+    display: flex;
+    justify-content: center;
 }
 
 /****************************************************
@@ -1011,3 +1047,35 @@ nav{
 /****************************************************
     footer part css end
 ****************************************************/
+
+
+
+
+
+
+
+/****************************************************
+    back to top part css start
+****************************************************/
+.btop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #E23E38;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 20px;
+}
+
+.btop:hover{
+    color: #fff;
+}
+/****************************************************
+    back to top part css end
+****************************************************/
+
